@@ -8,7 +8,7 @@
 // ============================================
 const CONFIG = {
     // Replace with your Google Cloud OAuth Client ID
-    GOOGLE_CLIENT_ID: 'YOUR_CLIENT_ID.apps.googleusercontent.com',
+    GOOGLE_CLIENT_ID: '739584369324-ceulvs27abbhvufa7muvgue39h6jqv0u.apps.googleusercontent.com',
     STORAGE_PREFIX: 'agrivault_',
     SESSION_KEY: 'agrivault_session',
     USERS_KEY: 'agrivault_users',
