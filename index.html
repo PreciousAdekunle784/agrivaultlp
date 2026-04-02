@@ -212,13 +212,22 @@
         }
 
         /* HERO */
+        /* HERO */
         .hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
             padding: 120px 0 80px;
             position: relative;
-            overflow: hidden
+            overflow: hidden;
+            /* New Background Properties */
+            background-image:
+                linear-gradient(rgba(248, 237, 237, 0.85), rgba(250, 250, 247, 0.98)),
+                /* Light overlay for text contrast */
+                url('agrivault.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .hero::before {
@@ -1837,7 +1846,7 @@
                 <a href="#carbon">Carbon Credits</a>
                 <a href="#postharvest">Post-Harvest</a>
                 <a href="#marketplace">Marketplace</a>
-                <a href="#" class="nav-cta">Get Started Free</a>
+                <a href="index.html" class="nav-cta">Get Started Free</a>
             </div>
             <button class="mobile-toggle" aria-label="Menu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" stroke-width="2">
@@ -1854,11 +1863,11 @@
                 <p class="hero-sub">Earn verified carbon credits from your regenerative practices. Predict spoilage
                     before it happens. Connect with buyers instantly — all from your phone.</p>
                 <div class="hero-ctas">
-                    <a href="#cta" class="btn-primary">Start Earning Credits <svg width="16" height="16"
+                    <a href="index.html" class="btn-primary">Start Earning Credits <svg width="16" height="16"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg></a>
-                    <a href="#how" class="btn-ghost">See How It Works</a>
+                    <a href="index.html" class="btn-ghost">See How It Works</a>
                 </div>
             </div>
             <div class="hero-visual">
